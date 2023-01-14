@@ -66,6 +66,16 @@ public class Contacts {
         this.email = email;
     }
 
+    public Contacts(String firstName, String lastName, String address, String city, int zip, long phoneNumber, String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.address = address;
+        this.city = city;
+        this.zip = zip;
+        this.phoneNumber = phoneNumber;
+        this.email = email;
+    }
+
     @Override
     public String toString() {
         return "Contacts{" +
